@@ -1,0 +1,107 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showAbout()">About Me</a></li>
+            <li><a href="#" onclick="showProjects()">Projects</a></li>
+            <li><a href="#" onclick="showContact()">Contact</a></li>
+            <li><a href="#" onclick="showHobbies()">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+       <div>
+ <div>
+                    <h1>
+                        Hi, I&apos;m Konrad Lorenz
+                    </h1>
+                    <h2>
+                        How did you end up here...? <br/>
+                        Well, if you&apos;re already here might aswell take a <b>look</b>
+                    </h2>
+                </div>
+                    <h3>
+                        What I have archived so far:
+                    </h3>
+                    <h4>
+                        1. Finished High School
+                    </h4>
+                    <p>
+                        I managed to successfully finish with school. 2022 I wrote my final exam(&quot;Abitur&quot;) and passed with a just about better than average grade of 2.1.
+                        Why only 2.1? I seemed to always follow the things that I enjoy, rather than what school tried to teach me. Thats how this website came to life!
+                        I was supposed to study, but instead i managed to find an excuse to do some programming and wrote this website...(to study of course!)
+                    </p>
+                    <h4 >
+                        2. Got into a Dual Student Programm at Accenture
+                    </h4>
+                    <p >
+                        I&apos;m happy to anounce that i recently(Sept. 22) started my career at Accenture. Here I hope to learn skills and knowledge to help me turn my hobby
+                        into my job. So far I really enjoyed my time here and I hope that I will get my Bachelor and after that maybe even a Master. In any case this is a 
+                        big step for me, but I look forward to fight my way through every little obstacle I might encounter.
+                    </p>
+                    <h3>
+                        My Aspirations
+                    </h3>
+                    <h4>
+                        1. Learn and earn new skills and knowledge
+                    </h4>
+                    <p >
+                        Study hard and get as much information as possible. And try to keep it all!
+                    </p>
+                    <h4>
+                        2. Progress my projects and start new ones
+                    </h4>
+                    <p>
+                        Finish all of my running projects and look for new interesting topics to work on. Also start working on Work projects.
+                    </p>
+                    <h4>
+                        3. Work more efficiently 
+                    </h4>
+                    <p >
+                        Cut distractions and learn to work as efficient as possible.
+                    </p>
+                </div>
+    </section>
+
+    <section id="projects" style="display:none;">
+        <h2>Projects</h2>
+        <ul>
+          <h5>
+            1. Wrote a Lieferando/Uber eats fake in C#/WPF
+          <h5>
+            2. Created a Discord bot in Async C# and Python
+          </h5>
+          <h5>
+            3. Played around with Pandas and a lot more Python
+          </h5>
+          <h5>
+            4. Tried teaching myself Machine Learning, failed miserably, ran out of time and made this Website
+          </h5>
+          <h5>
+            Worked on several Projects while in Uni including <a href="https://dhbwkino.de">dhbwkino.de</a>
+        </ul>
+    </section>
+
+    <section id="contact" style="display:none;">
+        <h2>Contact</h2>
+      <p>Email: <a href="mailto:Konrad-Lorenz@outlook.com">Konrad-Lorenz@outlook.com</a></p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    <section id="hobbies" style="display:none;">
+        <h2>Hobbies</h2>
+        <ul id="hobbyList">
+            <!-- Hobby items will be dynamically added here -->
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
